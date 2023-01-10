@@ -1,3 +1,3 @@
-FROM hshar/webapp
+FROM ubuntu
 RUN apt-get update
 ADD . /var/www/html
